@@ -184,6 +184,7 @@ L.drawLocal.draw.toolbar.buttons.svg = "Draw an svg";
 		else {
 			this._shape.setLatLng(latlng);
 		}
+        console.log('shape', this._shape)
 
 		let subtext = '';
 		this._tooltip.updateContent({
